@@ -1,4 +1,5 @@
 URL:
+https://github.com/acandreva/hw_javascript_logan_allison
 
 Resources:
 - For learning more about arrays: http://www.w3schools.com/js/js_arrays.asp
