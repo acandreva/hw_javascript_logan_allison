@@ -41,4 +41,4 @@ var reagan = {
 
 var presidents = [obama, bush, clinton, bushsr, reagan]
 
-console.log(presidents[2].firstName+presidents[2].lastName);
+console.log(presidents[2].firstName + " " + presidents[2].lastName);
