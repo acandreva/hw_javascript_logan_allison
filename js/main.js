@@ -26,8 +26,8 @@ function inception(callback,value) {
     callback(value);
 }
 
-function execute() {
-    console.log("The Wizard of Oz is a fantastic movie.");
+function execute( message ) {
+    console.log( message );
 }
 
-inception(execute);
+inception( execute, "The Wizard of Oz is a fantastic movie." );
