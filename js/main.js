@@ -1,6 +1,6 @@
 //I did it the long way because I don't know enough about JavaScript and this helped me not get confused.
 var obama = {
-    firstName: "Barack ",
+    firstName: "Barack",
     lastName: "Obama",
     termLength: "8",
     party: "Democrat",
@@ -8,7 +8,7 @@ var obama = {
 }
 
 var bush = {
-    firstName: "George W. ",
+    firstName: "George W.",
     lastName: "Bush",
     termLength: "8",
     party: "Republican",
@@ -16,7 +16,7 @@ var bush = {
 }
 
 var clinton = {
-    firstName: "Bill ",
+    firstName: "Bill",
     lastName: "Clinton",
     termLength: "8",
     party: "Democrat",
@@ -24,7 +24,7 @@ var clinton = {
 }
 
 var bushsr = {
-    firstName: "George H.W. ",
+    firstName: "George H.W.",
     lastName: "Bush",
     termLength: "4",
     party: "Republican",
@@ -32,7 +32,7 @@ var bushsr = {
 }
 
 var reagan = {
-    firstName: "Ronald ",
+    firstName: "Ronald",
     lastName: "Reagan",
     termLength: "8",
     party: "Republican",
@@ -41,4 +41,4 @@ var reagan = {
 
 var presidents = [obama, bush, clinton, bushsr, reagan]
 
-console.log(presidents[2].firstName+presidents[2].lastName);
+console.log(presidents[2].firstName + " " + presidents[2].lastName);
